@@ -24,7 +24,7 @@ namespace Agenda_Matriz
                 mat[0, 4] = "Correo";
 
                 Console.Clear();
-                Console.WriteLine("Qué Desea Hacer:\n 1.Ingresar Contacto\n 2.Mostrar Contactos\n 3.Buscar");
+                Console.WriteLine("Qué Desea realizar:\n 1.Ingresar Contacto\n 2.Mostrar Contactos\n 3.Buscar");
                 op = int.Parse(Console.ReadLine());
 
                 if (op == 1)
